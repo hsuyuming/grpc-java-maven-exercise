@@ -1,6 +1,9 @@
 package com.github.simpleabehsu.grpc.greeting.client;
 
-import com.proto.dummy.DummyServiceGrpc;
+import com.proto.greet.GreetRequest;
+import com.proto.greet.GreetResponse;
+import com.proto.greet.GreetServiceGrpc;
+import com.proto.greet.Greeting;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
@@ -14,12 +17,34 @@ public class GreetingClient {
                 .build();
 
         System.out.println("Createing stub");
-        DummyServiceGrpc.DummyServiceBlockingStub syncClient = DummyServiceGrpc.newBlockingStub(channel);
-
+//        old and dummy
+//        DummyServiceGrpc.DummyServiceBlockingStub syncClient = DummyServiceGrpc.newBlockingStub(channel);
 //        DummyServiceGrpc.DummyServiceFutureStub asyncClient = DummyServiceGrpc.DummyServiceFutureStub(channel);
-//
+
+        // Created a greet service client (blocking - synchronous)
+        GreetServiceGrpc.GreetServiceBlockingStub greetClient = GreetServiceGrpc.newBlockingStub(channel);
+
+        // Created a protocol buffer greeting message
+        Greeting greeting = Greeting.newBuilder()
+                .setFirstName("abe")
+                .setLastName("Hsu")
+                .build();
+
+        // Created a protocol buffer request message
+        GreetRequest greetRequest = GreetRequest.newBuilder()
+                .setGreeting(greeting)
+                .build();
+
+        // call the RPC and get back a GreetResponse (protocol buffers)
+        GreetResponse greetResponse =  greetClient.greet(greetRequest);
+
+        System.out.println(greetResponse.getResult());
+
+
+
         //do something
         System.out.println("Shutting down channel");
         channel.shutdown();
+
     }
 }
