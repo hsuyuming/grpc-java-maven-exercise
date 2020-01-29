@@ -1,3 +1,4 @@
+com/github/simpleabehsu/grpc/greeting/client/GreetingClient$2.class
 com/proto/dummy/Dummy.class
 com/proto/greet/LongGreetResponse$Builder.class
 com/proto/greet/LongGreetResponse$1.class
@@ -15,6 +16,7 @@ com/proto/greet/GreetManyTimesResponse.class
 com/proto/greet/GreetManyTimesRequest.class
 com/proto/greet/GreetEveryOneResquest$1.class
 com/proto/dummy/DummyServiceGrpc$DummyServiceStub.class
+com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl$2.class
 com/github/simpleabehsu/grpc/greeting/client/GreetingClient.class
 com/proto/greet/LongGreetResponse.class
 com/proto/greet/GreetManyTimesRequestOrBuilder.class
