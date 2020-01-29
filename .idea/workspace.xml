@@ -3,29 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ebdf967-7d7e-48dd-85f4-29b0643bee6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/proto/greet/greet.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/greet/greet.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/Greet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/Greet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBaseDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBaseDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceBlockingStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFileDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFileDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceFutureStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceImplBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceMethodDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceMethodDescriptorSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$GreetServiceStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc$MethodHandlers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/proto/greet/GreetServiceGrpc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/greet/greet.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/greet.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/com/proto/greet/GreetServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/com/proto/greet/GreetServiceGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/protobuf/java/com/proto/greet/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/protobuf/java/com/proto/greet/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/grpc-java-course-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/grpc-java-course-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="63" column="46" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="46" />
+            <state relative-caret-position="-211">
+              <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -67,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/proto/greet/greet.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="600">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -79,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
+            <state relative-caret-position="1373">
               <caret line="80" column="33" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="33" />
             </state>
           </provider>
@@ -110,9 +88,9 @@
         <option value="$PROJECT_DIR$/grpcjavacourse.iml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/proto/greet/greet.proto" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/greet/greet.proto" />
       </list>
     </option>
   </component>
@@ -150,9 +128,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580291619173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580296075814" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -374,18 +351,18 @@
       <workItem from="1580129924539" duration="9290000" />
       <workItem from="1580141412199" duration="2634000" />
       <workItem from="1580200061482" duration="166000" />
-      <workItem from="1580218048699" duration="12243000" />
+      <workItem from="1580218048699" duration="13118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24333000" />
+    <option name="totallyTimeSpent" value="25208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2257721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +372,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31983805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/greet/greet.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -574,15 +544,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
+        <state relative-caret-position="1373">
           <caret line="80" column="33" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="63" column="46" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="46" />
+        <state relative-caret-position="-211">
+          <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/greet/greet.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
