@@ -1,8 +1,7 @@
 package com.github.simpleabehsu.grpc.greeting.client;
 
 import com.proto.greet.*;
-import io.grpc.ManagedChannel;
-import io.grpc.ManagedChannelBuilder;
+import io.grpc.*;
 import io.grpc.stub.StreamObserver;
 
 import java.util.Arrays;
@@ -20,10 +19,61 @@ public class GreetingClient {
 //        doUnaryCall(channel);
 //        doServerStreamingCall(channel);
 //        doClientStreamingCall(channel);
-        doBiDiStreamingCall(channel);
+//        doBiDiStreamingCall(channel);
+        doUnaryCallWithDeadline(channel);
+
         //do something
         System.out.println("Shutting down channel");
         channel.shutdown();
+
+    }
+
+    private void doUnaryCallWithDeadline(ManagedChannel channel) {
+        GreetServiceGrpc.GreetServiceBlockingStub blockingStub = GreetServiceGrpc.newBlockingStub(channel);
+
+        // first call (3000ms deadline)
+        try {
+            System.out.println("Sending a request with a deadline of 3000ms");
+            GreetWithDeadlineResponse response = blockingStub.withDeadline(Deadline.after(3000,TimeUnit.MILLISECONDS)).greetWithDeadline(GreetWithDeadlineRequest.newBuilder()
+                    .setGreeting(Greeting.newBuilder()
+                            .setFirstName("abehsu")
+                            .build())
+                    .build()
+            );
+            System.out.println(response.getResult());
+        } catch (StatusRuntimeException e) {
+            if (e.getStatus() == Status.DEADLINE_EXCEEDED) {
+                System.out.printf("DeadLine has benn exceeded, we don't want the response");
+
+            } else {
+                e.printStackTrace();
+            }
+        }
+
+
+        // second call (100ms deadline)
+        try {
+            System.out.println("Sending a request with a deadline of 100ms");
+            GreetWithDeadlineResponse response = blockingStub.withDeadline(Deadline.after(100,TimeUnit.MILLISECONDS)).greetWithDeadline(GreetWithDeadlineRequest.newBuilder()
+                    .setGreeting(Greeting.newBuilder()
+                            .setFirstName("abehsu")
+                            .build())
+                    .build()
+            );
+            System.out.println(response.getResult());
+        } catch (StatusRuntimeException e) {
+            if (e.getStatus().getCode() == Status.Code.DEADLINE_EXCEEDED) {
+                System.out.printf("DeadLine has benn exceeded, we don't want the response");
+
+            } else {
+                e.printStackTrace();
+            }
+        }
+
+
+
+
+
 
     }
 
