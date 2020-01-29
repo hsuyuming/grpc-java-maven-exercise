@@ -62,6 +62,11 @@
             <artifactId>grpc-stub</artifactId>
             <version>1.26.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-services</artifactId>
+            <version>1.26.0</version>
+        </dependency>
     </dependencies>
 
 

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ebdf967-7d7e-48dd-85f4-29b0643bee6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="461">
@@ -36,6 +36,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-netty-shaded/1.26.0/grpc-netty-shaded-1.26.0.jar!/io/grpc/netty/shaded/io/grpc/netty/NettyChannelBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -44,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="399">
+              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -76,11 +85,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/proto/dummy/dummy.proto" />
         <option value="$PROJECT_DIR$/grpcjavacourse.iml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/proto/greet/greet.proto" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/client/GreetingClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java" />
       </list>
     </option>
   </component>
@@ -193,29 +202,12 @@
             <path>
               <item name="grpcjavacourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpcjavacourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="ssl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grpcjavacourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="grpcjavacourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="dummy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpcjavacourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grpcjavacourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="greet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grpcjavacourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580319890696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580321727423" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -317,8 +309,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GreetingClient" />
         <item itemvalue="Application.GreetingServer" />
+        <item itemvalue="Application.GreetingClient" />
       </list>
     </recent_temporary>
   </component>
@@ -343,12 +335,12 @@
       <workItem from="1580141412199" duration="2634000" />
       <workItem from="1580200061482" duration="166000" />
       <workItem from="1580218048699" duration="19643000" />
-      <workItem from="1580310665475" duration="4535000" />
+      <workItem from="1580310665475" duration="5573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36268000" />
+    <option name="totallyTimeSpent" value="37306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -364,7 +356,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31941545" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31941545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979124" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -547,24 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-netty-shaded/1.26.0/grpc-netty-shaded-1.26.0.jar!/io/grpc/netty/shaded/io/grpc/netty/NettyChannelBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="154" column="31" selection-start-line="154" selection-start-column="31" selection-end-line="154" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -579,6 +557,20 @@
             <element signature="method#doServerStreamingCall#0;class#GreetingClient#0" />
             <element signature="method#doUnaryCall#0;class#GreetingClient#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/simpleabehsu/grpc/greeting/server/GreetingServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
         </state>
       </provider>
     </entry>
